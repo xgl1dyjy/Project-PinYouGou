@@ -1,0 +1,167 @@
+/* 图标字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 版心 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style-red{
+    color:#c81623
+}
+/* header */
+
+.header{ 
+    height: 82px;  
+    border-bottom: 2px solid #c81623;
+ }
+.logo{
+    width: 175px;
+    height: 56px;
+    padding: 15px 0 11px;
+    background-color: #fff;
+ }
+
+
+ /* registerarea  */
+.registerarea {
+    height: 521px;
+    margin-top: 23px;
+    border: 1px solid #ccc;
+}
+.registerarea h3{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    color: #333;
+    padding-left: 10p;
+    font-weight: 400;
+    font-size: 18px;
+}
+.registerarea h3 em{
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.registerarea  em a{
+    color: #c81623;
+}
+.reg_form{
+    width: 564px;
+    height: 380px;
+    /* background-color: aqua; */
+    margin: 43px auto 0;
+}
+
+.reg_form li{
+    margin-bottom: 10px;
+}
+.reg_form label{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.inp{
+    width: 236px;
+    height: 33px;
+    border:1px solid #ccc;
+    margin-left:8px;
+}
+.error{
+    color:#df3033;
+}
+.error_ico{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    vertical-align: middle;
+   background:url(../images/icon.png) no-repeat -17px -117px;
+}
+.success_ico{
+    display:inline-block;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    vertical-align: middle;
+   background:url(../images/icon.png) no-repeat 0 -117px;
+}
+.safe{
+    padding-left: 170px;
+    color: #ccc;
+    font-size: 12px;
+}
+.safe em{
+padding: 0 12px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.r{
+    background-color: #de1111;
+}
+.z{
+    background-color: #40b83f
+}
+.q{
+    background-color:#f79100 ;
+}
+.reg_form .check{
+    margin: 34px 0 0 107px;
+    color: #333;
+
+}
+.check input{
+    vertical-align: middle;
+}
+.check a{
+    color:#1ba1e6; 
+}
+
+
+.finish{
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px ;
+    color: #fff;
+    margin: 30px 0 0 107px;
+}
+/* footer样式 */
+footer{
+    height: 392px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod_copyright{
+    text-align: center;
+}
+.mod_copyright_links{
+    margin:20px 0 15px 0;
+}
+.mod_copyright_links span{
+    margin:0 15px;
+}
+.mod_copyright_info span{
+    text-align: center;
+    font-size: 12px;
+}
